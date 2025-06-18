@@ -23,11 +23,14 @@ const Navbar = () => {
             </a>
           </li>
         </ul> */}
-        <button className="text-white bg-green-800 my-5 rounded-full flex justify-between items-center">
+        
+        <a  href="https://github.com/Abhay-Pratap200001/Password_Manager">
+        <button className="cursor-pointer text-white bg-green-700 my-5 rounded-full flex justify-between items-center ring-white ring-1">
         <img className="w-10 p-1  invert" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" alt="Github" />
-        <span className="font-blold px-2" >GitHub</span>
+        <span className="font-bolder px-2" >GitHub</span>
         </button>
-      </div>
+        </a>
+        </div>
     </nav>
   );
 };
